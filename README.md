@@ -1,24 +1,27 @@
-# Brick 1100 Games
+# Brick Craft 1100
 
-This repo contains the source code of games built for [Brick 1100](https://visnalize.com/brick1100/about).
+A retro-style Minecraft visualizer and builder designed for the **Brick 1100** simulator. 
 
-These games are built using basic web techs: HTML, CSS, and JavaScript. With some fundamental knowledge of these techs, you can build your own games for Brick 1100.
+## About
+This project brings a simplified block-building experience to the Nokia 1100 interface. Explore a pixelated landscape and place blocks using the classic numpad controls.
 
-To make your game's interface fit seamlessly into Brick 1100, there's a [Bridge 1100](https://github.com/Visnalize/bridge-1100) library that you can use.
+## Controls
+- **2**: Move Up / Forward
+- **8**: Move Down / Backward
+- **4**: Move Left
+- **6**: Move Right
+- **5**: Place/Remove Block
+- **C (Clear)**: Back to Menu
 
-## How to build your own game
+## Technical Details
+- **Resolution**: 96x65 pixels (Monochrome)
+- **Engine**: Bridge 1100 API
+- **Language**: HTML5 Canvas / JavaScript
 
-> For more detailed, step-by-step instructions, refer to [this guide](https://visnalize.com/brick1100/builders/building-game).
+## How to Run
+1. Upload this folder to your GitHub repository.
+2. Use the [Brick 1100 Previewer](https://visnalize.com) to test.
+3. Paste the URL of your `index.html` into the previewer.
 
-1. Fork this repo.
-2. Clone your forked repo to your local machine.
-3. Create a new folder and name it as your game's name.
-4. Write your game's code in the folder (you can refer to the existing games for examples).
-5. Commit and push your code to your forked repo.
-6. Create a pull request to this repo.
-
-Once your pull request is merged, your game will show up at `https://brick1100-games.visnalize.com/<your-game>`, and you can then access it from Brick 1100.
-
-## Game list
-
-> See the [Index page](https://brick1100-games.visnalize.com).
+## Credits
+Developed for the [Visnalize Brick 1100 Games](https://github.com) community.

@@ -1,44 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brick 1100 Games</title>
-    <link rel="icon" href="https://brick1100.visnalize.com/favicon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://brick1100-apps.visnalize.com/index.css">
+    <title>Brick Craft 1100</title>
+    <!-- Basic styles to center the game on the phone screen -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container is-max-desktop">
-        <section class="hero">
-            <div class="hero-body">
-                <h1 class="title is-size-1 has-text-centered mb-4">Brick 1100 Games</h1>
-                <p class="subtitle is-size-4 has-text-centered">A collection of games built for
-                    <a class="has-text-weight-bold" href="https://visnalize.com/brick1100/about">Brick 1100</a>
-                </p>
-                <div class="grid is-col-min-12">
-                    <div class="cell">
-                        <a class="button is-primary is-large is-fullwidth"
-                            href="https://visnalize.com/brick1100/builders/building-game" target="_blank">How to build a
-                            game</a>
-                    </div>
-                    <div class="cell">
-                        <a class="button is-primary is-outlined is-large is-fullwidth"
-                            href="https://github.com/Visnalize/brick-1100-games" target="_blank">Source code</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section" id="list"></section>
-    </div>
+    <!-- The Brick 1100 screen resolution is 96x65 pixels -->
+    <canvas id="gameCanvas" width="96" height="65"></canvas>
 
-    <script src="https://unpkg.com/mithril/mithril.js"></script>
-    <script src="https://brick1100-apps.visnalize.com/index.js"></script>
-    <script>
-        init('games')
-    </script>
+    <!-- Load the Bridge 1100 library as a module -->
+    <script type="module" src="script.js"></script>
 </body>
-
 </html>
